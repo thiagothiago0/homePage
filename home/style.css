@@ -100,6 +100,49 @@ body{
 	 margin-right: 25px;
 }
 
+@media (max-width: 600px){
+
+	body{
+		width: 100%;
+		margin:0 auto ;
+		display: flex;
+		flex-direction: column;
+	}
+
+	#container-header{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		
+	}
+
+	.logo{
+		width: 200px;
+		height: 200px;
+		margin-bottom: -100px;
+    	margin-right: 140px;
+	
+	}
+
+	.imagem1{
+		width: 200px;
+		height: 200px;
+		margin-bottom: 95px;
+		margin-right: 100px;
+		
+	}
+
+	#container-box{
+		display: flex;
+		flex-direction: column;
+
+	}
+
+	.box{
+		width: 100%;
+	}
+}
+
 
 
 
